@@ -17,16 +17,16 @@ public class Main {
 
     private static Movie[] getMovies() {
         return new Movie[]{
-                new Movie("Inception", 2010, 16),
-                new Movie("Tenet", 2020, 16)
+                new Movie("Апокалипсис в Голливуде", 2010, 16),
+                new Movie("Кингсмен", 2020, 18)
         };
     }
 
     private static Theater[] getTheatres() {
         return new Theater[]{
-                new Theater("Anna Karenina", 2017, 16),
-                new Theater("fjsdfkj", 2020, 29),
-                new Theater("ferfe", 2012, 23)
+                new Theater("Анна Каренина", 2017, 16),
+                new Theater("Щелкунчик", 2020, 8),
+                new Theater("Ромео и Джульета", 2012, 18)
         };
     }
 }
