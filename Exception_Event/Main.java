@@ -9,9 +9,11 @@ public class Main {
         System.out.println("Все события корректны");
     }
 
-    private static void validEvent(Event event) {
-        if (event.getName() ==null || event.getAge() == 0 || event.getReleaseYear() ==0) {
-            throw new RuntimeException();
+   private static void validEvent(Event event) {
+        if (event.getTitle() ==null || event.getAge() == 0 || event.getReleaseYear() ==0) {
+            throw new RuntimeException("Не указано возрастное ограничение или год выпуска");
+        } else if (event.getTitle()==null){
+            throw new RuntimeException("Не указано название мероприятия");
         }
     }
 
