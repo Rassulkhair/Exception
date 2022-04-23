@@ -1,8 +1,8 @@
 public class User {
-    public String login;
-    public String password;
-    public String email;
-    public int age;
+    private String login;
+    private String password;
+    private String email;
+    private int age;
 
     public User(String login, String password, String email, int age) {
         this.login = login;
@@ -10,4 +10,12 @@ public class User {
         this.email = email;
         this.age = age;
     }
+
+    public String getLogin() {return login;}
+
+    public String getPassword() {return password;}
+
+    public String getEmail() {return email;}
+
+    public int getAge() {return age;}
 }
